@@ -1,0 +1,13 @@
+{
+  "name": "tankerkoenig",
+  "version": "1.0.0",
+  "description": "A simple API Wrapper for the TANKERKÖNIG.DE API",
+  "main": "index.js",
+  "repository": "github.com/dunklestoast/tankerkoenig",
+  "author": "dunklesToast",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
