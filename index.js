@@ -62,7 +62,7 @@ async function getDetailByStationID(stationID) {
     const resp = await axios({
         url: 'detail.php',
         params: {
-            ids: stationID,
+            id: stationID,
             apikey: key
         }
     });
@@ -82,7 +82,7 @@ async function complain(stationID, type, correction, ts) {
         method: "POST",
         url: 'complaint.php',
         params: {
-            ids: stationID,
+            id: stationID,
             type: type,
             correction: correction,
             apikey: key
